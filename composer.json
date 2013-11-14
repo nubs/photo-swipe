@@ -1,0 +1,34 @@
+{
+  "name": "nubs/photo-swipe",
+  "type": "component",
+  "description": "Shim repository for PhotoSwipe",
+  "keywords": ["photoswipe", "jquery", "component"],
+  "license": "MIT",
+  "require": {
+    "robloach/component-installer": "*"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "lib/klass.min.js",
+        "code.photoswipe.jquery-3.0.5.js"
+      ],
+      "styles": [
+        "photoswipe.css"
+      ],
+      "files": [
+        "code.photoswipe.jquery-3.0.5.min.js",
+        "code.photoswipe-3.0.5.js",
+        "code.photoswipe-3.0.5.min.js",
+        "noutil/code.photoswipe.noutil.jquery-3.0.5.js",
+        "noutil/code.photoswipe.noutil.jquery-3.0.5.min.js",
+        "noutil/code.photoswipe.noutil-3.0.5.js",
+        "noutil/code.photoswipe.noutil-3.0.5.min.js",
+        "error.gif",
+        "icons.png",
+        "icons@2x.png",
+        "loader.gif"
+      ]
+    }
+  }
+}
